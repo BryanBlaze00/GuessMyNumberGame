@@ -48,7 +48,7 @@ public class GuessMyNumberGui implements ActionListener, KeyListener {
 	public static void main(String[] args) { new GuessMyNumberGui(); }
 
 	// Button stuff
-	private void Button() { 
+	private void Button() {
 		button.addActionListener(this);
 		button.addActionListener((ActionListener) enter);
 	}
